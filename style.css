@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalnia:wght@400;500&family=Poppins:wght@300;400;500&family=Roboto:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background: #000;
+  color: #fff;
+}
+
+.header {
+  position: relative;
+  height: 100vh;
+  background: pink;
+  background-image: url(img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  mask-image: linear-gradient(black, transparent);
+  -webkit-mask-image: linear-gradient(black, 88%, transparent 100%);
+  z-index: -99;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  padding: 20px 48px;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 28px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#locateLogo {
+  font-size: 38px;
+}
+
+nav ul li a i {
+  font-family: "Poppins", sans-serif;
+  display: block;
+  color: #fff;
+  /* padding: 20px 48px; */
+
+  text-decoration: none;
+}
+
+.heading {
+  text-align: center;
+  justify-content: center;
+  margin-top: 12rem;
+  color: #fff;
+}
+
+.main-heading {
+  font-size: 68px;
+  padding-bottom: 18px;
+}
+
+.slogan {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+
+.explore-section {
+  /* margin-top: 0px; */
+  height: 100vh;
+}
+
+.explore-heading {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+
+  width: 600px;
+  /* border: 2px solid white; */
+}
+
+.main-explore {
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+
+.explore-fillup {
+  font-size: 15px;
+  line-height: 3.5vh;
+  /* letter-spacing: 0.5px; */
+}
+
+.card-container {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 50px;
+}
+
+.card-img {
+  height: 450px;
+  width: 350px;
+  object-fit: cover;
+}
+
+.card {
+  /* box-shadow: 5px 5px 5px ; */
+}
+
+.card-content {
+  /* position: absolute; */
+  position: absolute;
+  /* text-align: center; */
+  top: 50%;
+
+  transform: translate(40%, -100%);
+}
+
+.card-main {
+  position: relative;
+}
+
+.card-content > p {
+  font-family: "Poppins", sans-serif;
+}
+
+.card-content > h2 {
+  font-family: "Kalnia", serif;
+  font-weight: normal;
+}
