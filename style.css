@@ -27,7 +27,6 @@ body {
   background-repeat: no-repeat;
   mask-image: linear-gradient(black, transparent);
   -webkit-mask-image: linear-gradient(black, 88%, transparent 100%);
-  z-index: -99;
 }
 
 nav ul li a {
@@ -57,15 +56,13 @@ nav ul li a i {
   font-family: "Poppins", sans-serif;
   display: block;
   color: #fff;
-  /* padding: 20px 48px; */
-
   text-decoration: none;
 }
 
 .heading {
   text-align: center;
   justify-content: center;
-  margin-top: 12rem;
+  margin-top: 13rem;
   color: #fff;
 }
 
@@ -91,6 +88,7 @@ nav ul li a i {
   text-align: center;
   margin: 0 auto;
   font-family: "Poppins", sans-serif;
+  top: 1.5rem;
 
   width: 600px;
   /* border: 2px solid white; */
@@ -113,7 +111,7 @@ nav ul li a i {
   justify-content: center;
   align-items: center;
 
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .card-img {
